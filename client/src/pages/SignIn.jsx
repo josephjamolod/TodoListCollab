@@ -11,7 +11,6 @@ import {
 } from "../redux/slice/userSlice";
 
 //icons
-import { FcGoogle } from "react-icons/fc";
 import { IoEye, IoEyeOff } from "react-icons/io5";
 import Oauth from "../components/Oauth";
 
@@ -20,11 +19,6 @@ export default function SignIn() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   account.deleteSession("current");
-  // }, []);
-
-  // console.log(currentUser, loading, error);
   useEffect(() => {
     dispatch(signInUserFail(false));
     if (currentUser) {
@@ -76,8 +70,8 @@ export default function SignIn() {
   };
 
   return (
-    <div className="flex w-full h-screen justify-center items-center">
-      <div className="bg-[#fff] flex justify-start items-center">
+    <div className="flex w-full h-screen py-10 md:py-20 justify-center">
+      <div className="bg-[#fff] flex justify-start items-center max-h-[600px]">
         <div className="bg-[#fff] lg:w-[30rem] xs:h-[32rem] lg:h-[33rem] p-12 ">
           <div>
             <h2 className="text-[#a3a3a3] text-[16px] pb-1 ">

@@ -75,7 +75,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col  items-center   pt-20 overflow-hidden h-auto">
+    <main className="flex flex-col  items-center   pt-10 md:pt-20 overflow-hidden h-auto">
       <h1 className="text-sm text-red-400">{isError && isError}</h1>
       <form
         onSubmit={handleSubmit}

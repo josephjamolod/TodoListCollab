@@ -87,8 +87,8 @@ export default function SignUp() {
   };
 
   return (
-    <div className="flex w-full h-screen justify-center items-center">
-      <div className="bg-[#fff] flex justify-start items-center">
+    <div className="flex w-full h-screen py-10 md:py-20 justify-center">
+      <div className="bg-[#fff] flex justify-start items-center max-h-[650px]">
         <div className="bg-[#fff] lg:w-[30rem] xs:h-[32rem] lg:h-[37rem] p-12 ">
           <div>
             <h2 className="text-[#a3a3a3] text-[16px] pb-1 ">
