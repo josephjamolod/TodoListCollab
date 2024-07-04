@@ -63,7 +63,7 @@ export default function EditTodo() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center">
+    <div className="w-full h-screen flex flex-col items-center mt-20">
       {fetchLoading ? (
         <FetchTodoLoader />
       ) : (
